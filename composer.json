@@ -1,0 +1,21 @@
+{
+    "name": "fabria/yii2-qz",
+    "description": "Extension to use QZ print plugin",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","qz"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabrizio Albonico",
+            "email": "software@albonico.ch"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fabria\\qz\\": ""
+        }
+    }
+}
