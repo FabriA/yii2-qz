@@ -3,6 +3,7 @@
     "description": "Extension to use QZ print plugin",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","qz"],
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
