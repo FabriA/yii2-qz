@@ -3,7 +3,7 @@
     "description": "Extension to use QZ print plugin",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","qz"],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "authors": [
         {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "fabria\\qz\\": "@backend/runtime/tmp-extensions/yii2-qz"
+            "fabria\\qz\\": "/"
         }
     },
     "repositories":[
