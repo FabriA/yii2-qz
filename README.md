@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 QZ Print plugin extension
 =========================
 Extension to use QZ print plugin
@@ -29,3 +30,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?= \fabria\qz\AutoloadExample::widget(); ?>```
+=======
+# yii2-qz
+QZ print plugin for Yii2
+>>>>>>> 85ff25df281c9b3eb18218e09f310fcd61c44be1
