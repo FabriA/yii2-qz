@@ -21,22 +21,24 @@ class QZPrintAsset extends AssetBundle
 	/**
 	 * {@inheritdoc}
 	 */
-	public $sourcePath = 'backend/runtime/tmp-extensions/yii2-qz';
+	public $sourcePath = __DIR__ . '/assets';
 
 	/**
 	 * {@inheritdoc}
 	 */
-	public $css = [
-		//'skins/all.css',
-	];
+//	public $css = [
+//		//'skins/all.css',
+//	];
 
 	/**
 	 * {@inheritdoc}
 	 */
 	public $js = [
-		'assets/js/qz-tray.js',
-		'assets/js/dependencies/rsvp-3.1.0.min.js',
-		'assets/js/sha-256.min.js'
+		'js/qz-tray.js',
+		'js/helpers.js',
+		'js/printer.js',
+		'js/dependencies/rsvp-3.1.0.min.js',
+		'js/sha-256.min.js'
 	];
 
 	/**
