@@ -15,7 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "fabria\\qz\\": ""
+            "fabria\\qz\\": "@backend/runtime/tmp-extensions/yii2-qz"
         }
-    }
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/FabriA/yii2-qz"
+        }
+    ]
 }
